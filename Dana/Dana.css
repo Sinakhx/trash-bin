@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Dana;
+  src: url("./eot/dana-regular.eot");
+  src: url("./eot/dana-regular.eot?#iefix") format("embedded-opentype"),
+    url("./woff2/dana-regular.woff2") format("woff2"),
+    url("./woff/dana-regular.woff") format("woff");
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Anjoman;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./eot/Anjoman-FaNum-Light.eot");
+  src: url("./eot/Anjoman-FaNum-Light.eot") format("embedded-opentype"),
+    url("./woff2/Anjoman-FaNum-Light.woff2") format("woff2"),
+    url("./woff/Anjoman-FaNum-Light.woff") format("woff");
+}
+@font-face {
+    font-family: Anjoman;
+    font-style: normal;
+    font-weight: 400;
+    src: url("./eot/Anjoman-FaNum-Regular.eot");
+    src: url("./eot/Anjoman-FaNum-Regular.eot") format("embedded-opentype"),
+    url("./woff2/Anjoman-FaNum-Regular.woff2") format("woff2"),
+    url("./woff/Anjoman-FaNum-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: Anjoman;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./eot/Anjoman-FaNum-Bold.eot");
+  src: url("./eot/Anjoman-FaNum-Bold.eot") format("embedded-opentype"),
+    url("./woff2/Anjoman-FaNum-Bold.woff2") format("woff2"),
+    url("./woff/Anjoman-FaNum-Bold.woff") format("woff");
+}

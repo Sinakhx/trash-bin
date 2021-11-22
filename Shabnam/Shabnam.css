@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Shabnam;
+  src: url("./eot/Shabnam-Light-FD.eot") format("embedded-opentype"),
+    url("./ttf/Shabnam-Light-FD.ttf") format("truetype"),
+    url("./woff/Shabnam-Light-FD.woff") format("woff"),
+    url("./woff2/Shabnam-Light-FD.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Shabnam;
+  src: url("./eot/Shabnam-FD.eot") format("embedded-opentype"),
+    url("./ttf/Shabnam-FD.ttf") format("truetype"),
+    url("./woff/Shabnam-FD.woff") format("woff"),
+    url("./woff2/Shabnam-FD.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Shabnam;
+  src: url("./eot/Shabnam-Bold-FD.eot") format("embedded-opentype"),
+    url("./ttf/Shabnam-Bold-FD.ttf") format("truetype"),
+    url("./woff/Shabnam-Bold-FD.woff") format("woff"),
+    url("./woff2/Shabnam-Bold-FD.woff2") format("woff2");
+  font-weight: 700;
+}

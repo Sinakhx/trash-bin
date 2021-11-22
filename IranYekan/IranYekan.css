@@ -1,0 +1,41 @@
+/*
+** IranYekan
+*/
+@font-face {
+  font-family: "iran-yekan";
+  src: url("./woff/IRANYekanWeb_Normal.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("./eot/IRANYekanWeb_Bold.eot");
+  src: url("./eot/IRANYekanWeb_Bold.eot?#iefix") format("embedded-opentype"),
+    url("./woff2/IRANYekanWeb_Bold.woff2") format("woff2"),
+    url("./woff/IRANYekanWeb_Bold.woff") format("woff"),
+    url("./ttf/IRANYekanWeb_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./eot/IRANYekanWeb_Normal.eot");
+  src: url("./eot/IRANYekanWeb_Normal.eot?#iefix") format("embedded-opentype"),
+    url("./woff2/IRANYekanWeb_Normal.woff2") format("woff2"),
+    url("./woff/IRANYekanWeb_Normal.woff") format("woff"),
+    url("./ttf/IRANYekanWeb_Normal.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./eot/IRANYekanWeb_Light.eot");
+  src: url("./eot/IRANYekanWeb_Light.eot?#iefix") format("embedded-opentype"),
+    url("./woff2/IRANYekanWeb_Light.woff2") format("woff2"),
+    url("./woff/IRANYekanWeb_Light.woff") format("woff"),
+    url("./ttf/IRANYekanWeb_Light.ttf") format("truetype");
+}
