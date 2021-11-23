@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Title } from 'components';
+import { Title } from '@components';
+import { addNumber } from '@utils/fp/numbers';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React {addNumber(1)}
         </a>
       </header>
     </div>

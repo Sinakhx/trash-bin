@@ -333,7 +333,12 @@ module.exports = function (webpackEnv) {
           'react-dom$': 'react-dom/profiling',
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
-        ...(modules.webpackAliases || {}),
+        // old native config:
+        // ...(modules.webpackAliases || {}),
+
+        // new custom config:
+        "@components": path.resolve(paths.appPath, "src", "components", "index"),
+        "@utils": path.resolve(paths.appPath, "src", "utils"),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
