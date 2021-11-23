@@ -4,8 +4,8 @@
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
-      "@utils/*": ["src/utils/*"],
-      "@components": ["src/components/index.js"]
+      "@utils": ["src/utils"],
+      "@components": ["src/components/index"]
     }
   },
   "include": ["src"],

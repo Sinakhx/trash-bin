@@ -27,6 +27,8 @@ const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpack
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
+const jsConfig = require("../jsconfig.json");
+
 const postcssNormalize = require('postcss-normalize');
 
 const appPackageJson = require(paths.appPackageJson);
@@ -76,6 +78,13 @@ const hasJsxRuntime = (() => {
     return false;
   }
 })();
+
+const resolvedAliases = Object.fromEntries(
+  Object.entries(jsConfig.compilerOptions.paths).map(([key, value]) => [
+    key,
+    path.resolve(paths.appPath, value[0]),
+  ])
+);
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
@@ -337,8 +346,7 @@ module.exports = function (webpackEnv) {
         // ...(modules.webpackAliases || {}),
 
         // new custom config:
-        "@components": path.resolve(paths.appPath, "src", "components", "index"),
-        "@utils": path.resolve(paths.appPath, "src", "utils"),
+        ...resolvedAliases
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
