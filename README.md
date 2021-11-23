@@ -1,25 +1,26 @@
 # Quick Links
+add zsh aliases to your unix environment & enjoy
 
 ## create-react-app template
 
 ```sh
-git clone -b cra-template https://github.com/Sinakhx/trash-bin.git
+cra
 ```
 
 ## create-react-app TypeScript template
 
 ```sh
-git clone -b cra-ts-template https://github.com/Sinakhx/trash-bin.git
+cra-ts
 ```
 
 ## English Fonts
 
 ```sh
-git clone -b fonts-en https://github.com/Sinakhx/trash-bin.git
+fonts-en
 ```
 
 ## Persian Fonts
 
 ```sh
-git clone -b fonts-fa https://github.com/Sinakhx/trash-bin.git
+fonts-fa
 ```
